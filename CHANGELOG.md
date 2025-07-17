@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.3...v1.0.4) (2025-07-17)
+
+
+### Bug Fixes
+
+* clean up CHANGELOG ([3158de3](https://github.com/trickert76/simple-svg-charts.js/commit/3158de3c88cfce789e5620dc49811d6e085efd13))
+
 ## [1.0.3](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.2...v1.0.3) (2025-07-17)
 
 
