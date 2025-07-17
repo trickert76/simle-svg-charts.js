@@ -269,7 +269,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><code>hideHover</code></td>
+                  <td><code>hideHover</code><br><span class='badge badge-primary'>since v0.6</span></td>
                   <td>
                     Set to <code>false</code> to always show a hover legend.
                     <br>
@@ -280,7 +280,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><code>hoverCallback</code></td>
+                  <td><code>hoverCallback</code><br><span class='badge badge-primary'>since v0.6</span></td>
                   <td>
                     Provide a function on this option to generate custom
                     hover legends.
@@ -295,6 +295,19 @@
                     <pre class='javascript'><code>hoverCallback: function (index, options, content, row) {
     return "sin(" + row.x + ") = " + row.y;
 }</code></pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hoverClass</code><br><span class='badge badge-primary'>since v1.0</span></td>
+                  <td>
+                    Set the stylesheet class names of the hover element. Default is <code>morris-hover morris-default-style</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hoverClassBase</code><br><span class='badge badge-primary'>since v1.0</span></td>
+                  <td>
+                    Set the base stylesheet class names of the hover element. Default is <code>morris-hover</code>. We extend this name with <code>-point</code> and <code>-row-label</code>, so there are two css classes to be defined (<code>morris-hover-point</code> and <code>morris-hover-row-label</code>).
+                    The point class is used for the point style and the row-label is used for the hover row per element.
                   </td>
                 </tr>
                 <tr>
