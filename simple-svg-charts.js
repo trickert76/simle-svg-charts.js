@@ -1,5 +1,5 @@
 /* 
- * simple-svg-graph.js v1.0.0
+ * simple-svg-charts.js v1.0.0
  *  
  * based on https://github.com/pierresh/morris.js/
  * based on https://github.com/morrisjs/morris.js/

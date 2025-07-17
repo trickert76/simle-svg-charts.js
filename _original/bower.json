@@ -1,0 +1,17 @@
+{
+  "name": "morris.js",
+  "main": [
+    "./morris.js",
+    "./morris.css"
+  ],
+  "dependencies": {
+    "raphael": ">= 2.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.10.0",
+    "chai-jquery": "~1.2.3",
+    "sinon": "http://sinonjs.org/releases/sinon-1.17.7.js",
+    "sinon-chai": "~2.14.0"
+  }
+}
