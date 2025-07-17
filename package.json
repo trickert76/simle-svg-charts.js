@@ -1,6 +1,6 @@
 {
   "name": "simple-svg-charts.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "pretty time-series line graphs",
   "author": "Thoralf Rickert-Wendt",
