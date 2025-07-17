@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.2...v1.0.3) (2025-07-17)
+
+
+### Bug Fixes
+
+* remove npmrc ([84367f2](https://github.com/trickert76/simple-svg-charts.js/commit/84367f23bb8395264bcfa2a6acd1b8fd7be78cfc))
+
 ## [1.0.2](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.1...v1.0.2) (2025-07-17)
 
 
