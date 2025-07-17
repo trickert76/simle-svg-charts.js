@@ -1,0 +1,40 @@
+{
+  "name": "simple-svg-charts.js",
+  "version": "1.0.0",
+  "private": false,
+  "description": "pretty time-series line graphs",
+  "author": "Thoralf Rickert-Wendt",
+  "license": "BSD-2-Clause",
+  "homepage": "https://trickert76.github.io/simple-svg-charts.js/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trickert76/simple-svg-charts.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trickert76/simple-svg-charts.js/issues"
+  },
+  "keywords": [
+    "animation", "javascript", "morris.js", "charts", "svg"
+  ],
+  "main": "simple-svg-charts.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings=0",
+    "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "dependencies": {
+    "raphael": "^2.3.0"
+  },
+  "devDependencies": {
+  },
+  "contributors": [{
+  	"name": "a lot of people",
+  	"url": "https://github.com/morrisjs/morris.js/graphs/contributors"
+  }]
+}
