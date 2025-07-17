@@ -1,5 +1,7 @@
 # 1.0.0 (2025-07-17)
 
+- renamed morris.js to simple-svg-charts.js
+- removed coffeescript files
 
 ### Bug Fixes
 
@@ -15,23 +17,17 @@
 * other solution for pipelne run ([f1e2df1](https://github.com/trickert76/simple-svg-charts.js/commit/f1e2df16e12619a602aba8b4be7b497c305e12d5))
 * try to enable github action for auto publishing new versions ([8ca8b3f](https://github.com/trickert76/simple-svg-charts.js/commit/8ca8b3fe1f195312c6258ce313cc67a596e5236a))
 
-# Changelog
-
-## 1.0.0 (July 2025)
-- renamed morris.js to simple-svg-charts.js
-- removed coffeescript files
-
-## 0.6.9 (3rd July 2021)
+# 0.6.9 (3rd July 2021)
 - Polar pie chart
 
-## 0.6.7 & 0.6.8 (21st February 2021)
+# 0.6.7 & 0.6.8 (21st February 2021)
 - npm import (ES6 Module) [Issue #4](https://github.com/pierresh/morris.js/issues/4)
 - TypeScript type definitions
 
-## 0.6.6 (12th May 2020)
+# 0.6.6 (12th May 2020)
 - Escaping of labels refactored [Issue #15](https://github.com/pierresh/morris.js/issues/15)
 
-## 0.6.5 (4th May 2020)
+# 0.6.5 (4th May 2020)
 - option to display percentage in donut [Issue #12](https://github.com/pierresh/morris.js/issues/12)
 - options pointSize and lineWidth for line curves in combo charts
 - Display Pie\Donut value when there is only 1 value
@@ -39,18 +35,18 @@
 - option gridIntegers [Issue #344](https://github.com/morrisjs/morris.js/pull/344)
 - Add lineType vertical for line charts [Issue #634](https://github.com/morrisjs/morris.js/issues/634)
 
-## 0.6.4 (19th July 2019)
+# 0.6.4 (19th July 2019)
 - display segments in pie charts even if total = 0 [Issue #13](https://github.com/pierresh/morris.js/issues/13)
 - can add padding to pie charts [Issue #9](https://github.com/pierresh/morris.js/issues/9)
 - options extraClassLine and extraClassCircle for line charts [Issue #7](https://github.com/pierresh/morris.js/pull/7)
 - option to display customized text when pie chart has no data [Issue #705](https://github.com/morrisjs/morris.js/issues/705)
 
-## 0.6.3 (16th September 2018)
+# 0.6.3 (16th September 2018)
 - PostUnits and preUnits for pie chart added
 - Method to destroy [Issue #569](https://github.com/morrisjs/morris.js/issues/569)
 - Ymin2 and Ymax2 are now considered [Issue #5](https://github.com/pierresh/morris.js/issues/5)
 
-## 0.6.2 (13th March 2018)
+# 0.6.2 (13th March 2018)
 - Color data labels is defined automatically (black or white) according to color of element
 - Can display colored regions [Issue #723](https://github.com/morrisjs/morris.js/issues/723)
 - Add option pointSuperimposed [Issue #3](https://github.com/pierresh/morris.js/issues/3)
@@ -58,13 +54,13 @@
 - Animation of area chart improved
 - Many other minor improvements
 
-## 0.6.1 (13th February 2018)
+# 0.6.1 (13th February 2018)
 - Step line added, based on [PR #331](https://github.com/morrisjs/morris.js/pull/331)
 - Trend line can be non-linear (polynomial, logarithmic, exponential)
 - Goals options for the right Y-axis [Issue #1](https://github.com/pierresh/morris.js/issues/1)
 - Many other minor improvements
 
-## 0.6.0 (8th January 2018)
+# 0.6.0 (8th January 2018)
 
 - Combo Charts - Bar and Line together
 - Right Y-axis [Issue #113](https://github.com/morrisjs/morris.js/issues/113)
@@ -78,14 +74,14 @@
 - Color scheme changed to Bootstrap 4's default theme
 - Option to display percentage in Donut and Pie charts
 
-## 0.5.1 - 15th June 2014
+# 0.5.1 - 15th June 2014
 
 - Fix touch event handling.
 - Fix stacked=false in bar chart [#275](https://github.com/morrisjs/morris.js/issues/275)
 - Configurable vertical segments [#297](https://github.com/morrisjs/morris.js/issues/297)
 - Deprecate continuousLine option.
 
-## 0.5.0 - 19th March 2014
+# 0.5.0 - 19th March 2014
 
 - Update grunt dependency [#288](https://github.com/morrisjs/morris.js/issues/228)
 - Donut segment color config in data objects [#281](https://github.com/morrisjs/morris.js/issues/281)
@@ -105,7 +101,7 @@
 - Use local javascript for examples.
 - Events on non-time series [#314](https://github.com/morrisjs/morris.js/issues/314)
 
-## 0.4.3 - 12th May 2013
+# 0.4.3 - 12th May 2013
 
 - Fix flickering hover box [#186](https://github.com/morrisjs/morris.js/issues/186)
 - xLabelAngle option (diagonal labels!!) [#239](https://github.com/morrisjs/morris.js/issues/239)
@@ -115,7 +111,7 @@
 - Fix hovers with setData [#213](https://github.com/morrisjs/morris.js/issues/213)
 - Fix hideHover behaviour [#236](https://github.com/morrisjs/morris.js/issues/236)
 
-## 0.4.2 - 14th April 2013
+# 0.4.2 - 14th April 2013
 
 - Fix DST handling [#191](https://github.com/morrisjs/morris.js/issues/191)
 - Parse data values from strings in Morris.Donut [#189](https://github.com/morrisjs/morris.js/issues/189)
@@ -123,13 +119,13 @@
 - Round Y-axis labels to significant numbers [#162](https://github.com/morrisjs/morris.js/issues/162)
 - Customising default hover content [#179](https://github.com/morrisjs/morris.js/issues/179)
 
-## 0.4.1 - 8th February 2013
+# 0.4.1 - 8th February 2013
 
 - Fix goal and event rendering. [#181](https://github.com/morrisjs/morris.js/issues/181)
 - Don't break when empty data is passed to setData [#142](https://github.com/morrisjs/morris.js/issues/142)
 - labelColor option for donuts [#159](https://github.com/morrisjs/morris.js/issues/159)
 
-## 0.4.0 - 26th January 2013
+# 0.4.0 - 26th January 2013
 
 - Goals and events [#103](https://github.com/morrisjs/morris.js/issues/103).
 - Bower package manager metadata.
@@ -142,18 +138,18 @@
 - yLabelFormat [#139](https://github.com/morrisjs/morris.js/issues/139).
 - Disable axes [#114](https://github.com/morrisjs/morris.js/issues/114).
 
-## 0.3.3 - 1st November 2012
+# 0.3.3 - 1st November 2012
 
 - **Bar charts!** [#101](https://github.com/morrisjs/morris.js/issues/101).
 
-## 0.3.2 - 28th October 2012
+# 0.3.2 - 28th October 2012
 
 - **Area charts!** [#47](https://github.com/morrisjs/morris.js/issues/47).
 - Some major refactoring and test suite improvements.
 - Set smooth parameter per series [#91](https://github.com/morrisjs/morris.js/issues/91).
 - Custom dateFormat for string x-values [#90](https://github.com/morrisjs/morris.js/issues/90).
 
-## 0.3.1 - 13th October 2012
+# 0.3.1 - 13th October 2012
 
 - Add `formatter` option for customising value labels in donuts [#75](https://github.com/morrisjs/morris.js/issues/75).
 - Cycle `lineColors` on line charts to avoid running out of colours [#78](https://github.com/morrisjs/morris.js/issues/78).
@@ -162,25 +158,25 @@
 - Don't sort data when parseTime is false [#83](https://github.com/morrisjs/morris.js/issues/83).
 - Customise styling for points. [#87](https://github.com/morrisjs/morris.js/issues/87).
 
-## 0.3.0 - 15th September 2012
+# 0.3.0 - 15th September 2012
 
 - Donut charts!
 - Bugfix: ymin/ymax bug [#71](https://github.com/morrisjs/morris.js/issues/71).
 - Bugfix: infinite loop when data indicates horizontal line [#66](https://github.com/morrisjs/morris.js/issues/66).
 
-## 0.2.10 - 26th June 2012
+# 0.2.10 - 26th June 2012
 
 - Support for decimal labels on y-axis [#58](https://github.com/morrisjs/morris.js/issues/58).
 - Better axis label clipping [#63](https://github.com/morrisjs/morris.js/issues/63).
 - Redraw graphs with updated data using `setData` method [#64](https://github.com/morrisjs/morris.js/issues/64).
 - Bugfix: series with zero or one non-null values [#65](https://github.com/morrisjs/morris.js/issues/65).
 
-## 0.2.9 - 15th May 2012
+# 0.2.9 - 15th May 2012
 
 - Bugfix: Fix zero-value regression
 - Bugfix: Don't modify user-supplied data
 
-## 0.2.8 - 10th May 2012
+# 0.2.8 - 10th May 2012
 
 - Customising x-axis labels with `xLabelFormat` option
 - Only use timezones when timezone info is specified
@@ -188,43 +184,43 @@
 - Added `preunits` and `postunits` options
 - Better non-continuous series data support
 
-## 0.2.7 - 2nd April 2012
+# 0.2.7 - 2nd April 2012
 
 - Added `xLabels` option
 - Refactored x-axis labelling
 - Better ISO date support
 - Fix bug with single value in non time-series graphs
 
-## 0.2.6 - 18th March 2012
+# 0.2.6 - 18th March 2012
 
 - Partial series support (see `null` y-values in `examples/quarters.html`)
 - `parseTime` option bugfix for non-time-series data
 
-## 0.2.5 - 15th March 2012
+# 0.2.5 - 15th March 2012
 
 - Raw millisecond timestamp support (with `dateFormat` option)
 - YYYY-MM-DD HH:MM[:SS[.SSS]] date support
 - Decimal number labels
 
-## 0.2.4 - 8th March 2012
+# 0.2.4 - 8th March 2012
 
 - Negative y-values support
 - `ymin` option
 - `units` options
 
-## 0.2.3 - 6th Mar 2012
+# 0.2.3 - 6th Mar 2012
 
 - jQuery no-conflict compatibility
 - Support ISO week-number dates
 - Optionally hide hover on mouseout (`hideHover`)
 - Optionally skip parsing dates, treating X values as an equally-spaced series (`parseTime`)
 
-## 0.2.2 - 29th Feb 2012
+# 0.2.2 - 29th Feb 2012
 
 - Bugfix: mouseover error when options.data.length == 2
 - Automatically sort options.data
 
-## 0.2.1 - 28th Feb 2012
+# 0.2.1 - 28th Feb 2012
 
 - Accept a DOM element *or* an ID in `options.element`
 - Add `smooth` option
