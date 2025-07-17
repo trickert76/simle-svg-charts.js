@@ -57,7 +57,7 @@ Then, you need to define the chart itself
   ...
 ```
 
-Thats it. There are a lot of properties and options available. More can be found here.
+Thats it. There are a lot of properties and options available. More can be found on the [Github Pages](https://trickert76.github.io/simple-svg-charts.js/).
 
 # Examples
 
