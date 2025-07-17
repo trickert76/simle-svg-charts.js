@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.1...v1.0.2) (2025-07-17)
+
+
+### Bug Fixes
+
+* publish to NPMjs ([e0d1cfe](https://github.com/trickert76/simple-svg-charts.js/commit/e0d1cfe413338276ebe93a0ee9044bbe2d5573f8))
+* solving Github action permissions ([f4910b8](https://github.com/trickert76/simple-svg-charts.js/commit/f4910b8f913dfed4f9d8baf46a382b0d9fe2f7b6))
+* try to solve issue NPM auth issue ([abc8e3c](https://github.com/trickert76/simple-svg-charts.js/commit/abc8e3c616da2ddf9f02e7b83dddba36c07a8b19))
+
 ## [1.0.1](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.0...v1.0.1) (2025-07-17)
 
 
