@@ -19,6 +19,18 @@
   Morris = window.Morris = {};
 
   compStyle = function(el) {
+    if (el.tagName === "DIV") {
+      const svgs = el.getElementsByTagName("svg");
+      for (const svg of svgs) {
+        if (getComputedStyle) {
+          return getComputedStyle(svg, null);
+        } else if (svg.currentStyle) {
+          return svg.currentStyle;
+        } else {
+          return svg.style;
+        }
+      }
+    }
     if (getComputedStyle) {
       return getComputedStyle(el, null);
     } else if (el.currentStyle) {
@@ -2051,7 +2063,7 @@
     };
 
     Line.prototype.pointGrowSeries = function(index) {
-      if (this.pointSizeForSeries(index) === 0) {
+      if ((this.pointSizeForSeries(index) + this.options.pointSizeGrow) === 0) {
         return;
       }
       return Raphael.animation({
