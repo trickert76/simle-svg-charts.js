@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/trickert76/simple-svg-charts.js/compare/v1.0.0...v1.0.1) (2025-07-17)
+
+
+### Bug Fixes
+
+* cleanup CHANGELOG ([3605d28](https://github.com/trickert76/simple-svg-charts.js/commit/3605d28809ce8b73bd9f635e3a0ae1c4915ce702))
+
 # 1.0.0 (2025-07-17)
 
 - renamed morris.js to simple-svg-charts.js
