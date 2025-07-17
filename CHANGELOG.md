@@ -1,3 +1,19 @@
+# 1.0.0 (2025-07-17)
+
+
+### Bug Fixes
+
+* add package.json for auto publish ([05606e2](https://github.com/trickert76/simple-svg-charts.js/commit/05606e2196f07ef3a440d220cf9a1b80931607de))
+* added documentation for later github pages ([40a8619](https://github.com/trickert76/simple-svg-charts.js/commit/40a8619c25c6c81f88a4e51577bdce499c0a7ebc))
+* added homepage ([1266f1e](https://github.com/trickert76/simple-svg-charts.js/commit/1266f1ee63b4c32dc3dae76d95241a1fc3c88be2))
+* enable ci/cd pipeline ([44f18c7](https://github.com/trickert76/simple-svg-charts.js/commit/44f18c7a3dbcf5afc7af62f6300663c35d283731))
+* enable pipeline ([8f8a0de](https://github.com/trickert76/simple-svg-charts.js/commit/8f8a0de9ed9d538c7b46801c888faa4c7893b68b))
+* issue with calculating component height and pointgrids ([5b69da0](https://github.com/trickert76/simple-svg-charts.js/commit/5b69da08702ebbc65538294daf5fff568d5afe1b))
+* issues with documentation ([3eccd1b](https://github.com/trickert76/simple-svg-charts.js/commit/3eccd1b1236867a84dd149e0346c931779f6b97e))
+* make css class for hovers configurable ([58b67a9](https://github.com/trickert76/simple-svg-charts.js/commit/58b67a9dcd0b47d14f9cefb98c6281d9ee74fe12))
+* moved github pages to default location ([2cb84bc](https://github.com/trickert76/simple-svg-charts.js/commit/2cb84bc672fa13d1609f97c7ea70e024fd9e67a9))
+* other solution for pipelne run ([f1e2df1](https://github.com/trickert76/simple-svg-charts.js/commit/f1e2df16e12619a602aba8b4be7b497c305e12d5))
+* try to enable github action for auto publishing new versions ([8ca8b3f](https://github.com/trickert76/simple-svg-charts.js/commit/8ca8b3fe1f195312c6258ce313cc67a596e5236a))
 
 # Changelog
 
