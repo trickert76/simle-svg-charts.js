@@ -14,7 +14,11 @@
     "url": "https://github.com/trickert76/simple-svg-charts.js/issues"
   },
   "keywords": [
-    "animation", "javascript", "morris.js", "charts", "svg"
+    "animation",
+    "javascript",
+    "morris.js",
+    "charts",
+    "svg"
   ],
   "main": "simple-svg-charts.js",
   "engines": {
@@ -22,19 +26,26 @@
   },
   "scripts": {
     "lint": "eslint . --max-warnings=0",
-    "semantic-release": "semantic-release"
+    "semantic-release": "npx semantic-release"
   },
   "publishConfig": {
     "access": "public"
   },
-
   "dependencies": {
     "raphael": "^2.3.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/npm": "^12.0.2",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "semantic-release": "^24.2.7"
   },
-  "contributors": [{
-  	"name": "a lot of people",
-  	"url": "https://github.com/morrisjs/morris.js/graphs/contributors"
-  }]
+  "contributors": [
+    {
+      "name": "a lot of people",
+      "url": "https://github.com/morrisjs/morris.js/graphs/contributors"
+    }
+  ]
 }
